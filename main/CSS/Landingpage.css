@@ -1,0 +1,188 @@
+.BackGround{
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    background: white
+}
+.BgImage{
+    width: 1440px; 
+    height: 948px; 
+    left: 0px; top: 0px; 
+    position: absolute; 
+    background: linear-gradient(0deg, #F7F7F7 0%, #F7F7F7 100%); 
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+.HeroPage{
+    width: 939px; 
+    height: 910px; 
+    left: 641px; 
+    top: -273px; 
+    position: absolute; 
+    opacity: 0.75; 
+    background: #D9D9D9; 
+    box-shadow: 100px 100px 100px; 
+    border-radius: 9999px; 
+    filter: blur(100px)
+}
+.RegisterButton{
+    width: 191px; 
+    height: 80px; 
+    padding-left: 14px; 
+    padding-right: 14px; 
+    padding-top: 1px; 
+    padding-bottom: 1px; 
+    left: 278px; top: 1855px;
+    position: absolute; 
+    background: black; 
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); 
+    border-radius: 30px; justify-content: center; 
+    align-items: center; 
+    gap: 8px; 
+    display: inline-flex;
+}
+.ButtonFont{
+    color: white; 
+    font-size: 32px; 
+    font-family: Outfit; 
+    font-weight: 600; 
+    line-height: 48px; 
+    word-wrap: break-word
+}
+.Header{
+    width: 1314px; 
+    height: 164px; 
+    left: 63px; 
+    top: -21px; 
+    position: absolute; 
+    opacity: 0.75; 
+    background: white; 
+    border-radius: 32px; 
+    overflow: hidden
+}
+.LeftBg{
+    width: 1232px; 
+    height: 203px; 
+    left: 82px; 
+    top: -38px; 
+    position: absolute; 
+    mix-blend-mode: soft-light; 
+    background: white
+}
+.H1{
+    left: 703px; 
+    top: 182px; 
+    position: absolute; 
+    color: black; 
+    font-size: 64px; 
+    font-family: Roboto; 
+    font-weight: 700; 
+    text-transform: capitalize; 
+    word-wrap: break-word
+}
+.H2{
+    width: 714px; 
+    left: 703px; 
+    top: 369px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Outfit; 
+    font-weight: 500; 
+    line-height: 60px; 
+    word-wrap: break-word
+}
+.Headeright{
+    left: 575px; 
+    top: 53px; 
+    position: absolute; 
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 48px; 
+    display: inline-flex
+}
+.AboutUs{
+    color: black; 
+    font-size: 20px; 
+    font-family: Outfit; 
+    font-weight: 500; 
+    line-height: 30px; 
+    word-wrap: break-word
+}
+.Support{
+    color: black; 
+    font-size: 20px; 
+    font-family: Outfit; 
+    font-weight: 500; 
+    line-height: 30px; 
+    word-wrap: break-word
+}
+.FAQ{
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    line-height: 30px; 
+    word-wrap: break-word
+}
+.Signin{
+    padding-left: 24px; 
+    padding-right: 24px; 
+    padding-top: 14px; 
+    padding-bottom: 14px; 
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); 
+    border-radius: 8px; border: 1px #ED1010 solid; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 8px;
+    display: flex
+}
+.SigninFont{
+    color: #114BBC; 
+    font-size: 20px; 
+    font-family: Outfit; 
+    font-weight: 600; 
+    line-height: 30px; 
+    word-wrap: break-word
+}
+.RegisterFont{
+    color: white; 
+    font-size: 20px; 
+    font-family: Outfit; 
+    font-weight: 600; 
+    line-height: 30px; 
+    word-wrap: break-word
+}
+.SignupRegister{
+    padding-left: 24px; 
+    padding-right: 24px; 
+    padding-top: 14px; 
+    padding-bottom: 14px; 
+    background: black; 
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); 
+    border-radius: 8px; 
+    justify-content: center;
+    align-items: center; 
+    gap: 8px; 
+    display: flex
+}
+.INCname{
+    left: 304px; 
+    top: 58px; 
+    position: absolute; 
+    color: black; 
+    font-size: 35px; 
+    font-family: Outfit; 
+    font-weight: 700; 
+    line-height: 52.50px; 
+    word-wrap: break-word
+}
+.OSClogo{
+    width: 156.04px; 
+    height: 110px; 
+    left: 133px; 
+    top: 29px; 
+    position: absolute; 
+    background: linear-gradient(0deg, #F7F7F7 0%, #F7F7F7 100%); 
+    border-radius: 8px
+}

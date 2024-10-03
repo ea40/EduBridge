@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+      <img src="../Pics/EduBRIDGELOGO.png" alt="" width="70PX">
+
+      <a href="home.html" class="logo" > EduBridge </a>
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+         <div id="notification-btn" class="fas fa-bell"></div>
+         <div id="leaderboard-btn" class="fas fa-star"></div>
+
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name" ><span  class="addfullName"></span></h3>
+         <p class="role"> <span   class="addwho"> </span></p>
+         <a href="profile.html" class="btn">view profile</a>
+         <a href="#l" class="btn" onclick="logout()">Log out</a>
+      </div>
+      <div class="leaderboard">
+         <ol>
+            <li>Leader Board</li>
+            <button>Start The competition</button>
+            
+         </ol>
+      </div>
+      <div class="notification">
+         <ul>
+            <li>US Education FAIR 2024</li>
+            <li>ALX Hckathon</li>
+            <li>SSC HighSchool Scholarship</li>
+         </ul>
+      </div>
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name"><span  class="addfullName"></span></h3>
+      <p class="role"><span class="addwho"></span></p>
+      <a href="profile.html" class="btn">View profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+      <a href="mentor.html"><i class="fas fa-chalkboard-user"></i><span>mentors</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+      <a href="#"><i class="fas fa-book"></i><span>library</span></a>
+      <a href="#"><i class="fas fa-microscope"></i><span>Explore Endo</span></a>
+   </nav>
+
+</div>
+<section class="teachers">
+
+   <h1 class="heading">My mentors</h1>
+
+   <div class="box-container" style="gap: 10px;">
+      <div class="box" style="width: 200px;">
+    <div class="tutor">
+            <img src="images/pic-1.jpg" alt="">
+            <div>
+               <h3>Hamza</h3>
+               <span>full stack developer</span>
+            </div>
+         </div>
+         <p>total playlists : <span>4</span></p>
+         <p>total videos : <span>18</span></p>
+         <p>total likes : <span>1200</span></p>
+         <a href="mentor_profile.html" class="inline-btn">view profile</a>
+      </div>
+
+      <div class="box" style="width: 200px; ">
+         <div class="tutor">
+            <img src="images/pic-3.jpg" alt="">
+            <div>
+               <h3>Nahom</h3>
+               <span>Mechanical Engineer</span>
+            </div>
+         </div>
+         <p>total playlists : <span>4</span></p>
+         <p>total videos : <span>6</span></p>
+         <p>total likes : <span>600</span></p>
+         <a href="mentor_profile.html" class="inline-btn">view profile</a>
+      </div>
+
+      <div class="box" style="width: 200px; ">
+         <div class="tutor">
+            <img src="images/pic-3.jpg" alt="">
+            <div>
+               <h3>Rahmeto</h3>
+               <span>Doctor</span>
+            </div>
+         </div>
+         <p>total playlists : <span>7</span></p>
+         <p>total videos : <span>30</span></p>
+         <p>total likes : <span>600</span></p>
+         <a href="mentor_profile.html" class="inline-btn">view profile</a>
+      </div>
+
+      <div class="box" style="width: 200px;">
+         <div class="tutor">
+            <img src="images/pic-4.jpg" alt="">
+            <div>
+               <h3>Daniel</h3>
+               <span>Teacher</span>
+            </div>
+         </div>
+         <p>total playlists : <span>10</span></p>
+         <p>total videos : <span>20</span></p>
+         <p>total likes : <span>3000</span></p>
+         <a href="mentor_profile.html" class="inline-btn">view profile</a>
+      </div>
+
+      <div class="box" style="width: 200px; ">
+         <div class="tutor">
+            <img src="images/pic-3.jpg" alt="">
+            <div>
+               <h3>Matyas</h3>
+               <span>Researcher</span>
+            </div>
+         </div>
+         <p>total playlists : <span>1</span></p>
+         <p>total videos : <span>2</span></p>
+         <p>total likes : <span>300</span></p>
+         <a href="mentor_profile.html" class="inline-btn">view profile</a>
+      </div>
+
+         <a href="mentor.html" class="inline-btn">Show more> </a>
+
+
+   </div>
+
+</section>
+
+<section class="courses">
+
+   <h1 class="heading">our courses</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="tutor">
+            <div class="info">
+               <h3>Ezana</h3>
+               <span>21-10-2022</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-1.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">complete HTML tutorial</h3>
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <div class="info">
+               <h3>Ruth</h3>
+               <span>21-10-2022</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-2.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">complete CSS tutorial</h3>
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-4.jpg" alt="">
+            <div class="info">
+               <h3>Amanuel</h3>
+               <span>21-10-2022</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-3.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">complete JS tutorial</h3>
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+      </div>
+
+   </div>
+
+   <div class="more-btn">
+      <a href="courses.html" class="inline-option-btn">view all courses</a>
+   </div>
+
+</section>
+<section class="courses">
+
+   <h1 class="heading">Opportunity alert</h1>
+
+   <div class="" >
+
+      <div class="box" style="background-color: #959090;color: #fff;">
+         <div class="tutor">
+            <div class="info">
+               <h3>A2Sv</h3>
+               <span>05-10-2022</span>
+            </div>
+         </div>
+         <h3 class="title">complete HTML and CSS tutorial</h3>
+         <a href="#" class="inline-btn">view more</a>
+      </div>
+      <div class="box" style="margin-top:20px ; background-color: #959090; color: #fff;">
+         <div class="tutor">
+            <div class="info">
+               <h3>GRESfet</h3>
+               <span>10-10-2022</span>
+            </div>
+         </div>
+         <h3 class="title">HackTRHON FOR THE DEVELOPMENT OF SOUTH</h3>
+         <a href="#" class="inline-btn">view more</a>
+      </div>
+
+      <div class="box" style="margin-top:20px ; background-color: #959090; color: #fff;">
+         <div class="tutor">
+            <div class="info">
+               <h3>MUN</h3>
+               <span>21-10-2022</span>
+            </div>
+         </div>
+        
+         <h3 class="title">The Best conference ever</h3>
+         <a href="#" class="inline-btn">view more</a>
+      </div>
+
+   </div>
+
+   <div class="more-btn">
+      <a href="#" class="inline-option-btn">view all opportunities</a>
+   </div>
+
+</section>
+<footer class="footer">
+
+   &copy; copyright @ 2022 by <span>EduBridge OSC</span> | all rights reserved!
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+   function displayUserProfile() {
+       const fullName = localStorage.getItem("fullName");
+       const email = localStorage.getItem("email");
+       const who = localStorage.getItem("who");
+       const academicQualification = localStorage.getItem("academicQualification");
+       const userName = localStorage.getItem("userName");
+       const country = localStorage.getItem("country");
+       const age = localStorage.getItem("age");
+       const type = localStorage.getItem("type");
+
+
+       const fullNameElements = document.querySelectorAll('.addfullName');
+       const emailElements = document.querySelectorAll('.addemail');
+       const whoElements = document.querySelectorAll('.addwho');
+       const academicQualificationElements = document.querySelectorAll('.addacademicQualification');
+       const userNameElements = document.querySelectorAll('.adduserName');
+       const countryElements = document.querySelectorAll('.addcountry');
+       const ageElements = document.querySelectorAll('.addage');
+       const typeElements = document.querySelectorAll('.addtype');
+
+      fullNameElements.forEach(element => {
+         element.textContent = fullName; 
+      });
+
+      emailElements.forEach(element => {
+         element.textContent = email;
+      });
+      
+      whoElements.forEach(element => {
+         element.textContent = who;
+      });
+      
+      academicQualificationElements.forEach(element => {
+         element.textContent = email;
+      });emailElements.forEach(element => {
+         element.textContent = academicQualification;
+      });
+      
+      userNameElements.forEach(element => {
+         element.textContent = userName;
+      });
+      
+      countryElements.forEach(element => {
+         element.textContent = country;
+      });
+      
+      ageElements.forEach(element => {
+         element.textContent = age;
+      });
+      
+      typeElements.forEach(element => {
+         element.textContent = type;
+      });
+
+   }
+
+   window.onload = displayUserProfile;
+
+   function logout() {
+    
+
+    window.location.href = "../index.html"; 
+}
+
+</script>
+
+
+
+
+   
+</body>
+</html>

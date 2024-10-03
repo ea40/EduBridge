@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>about us</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+      <img src="../Pics/EduBRIDGELOGO.png" alt="" width="70PX">
+
+      <a href="home.html" class="logo">EduBridge</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+         <div id="notification-btn" class="fas fa-bell"></div>
+         <div id="leaderboard-btn" class="fas fa-star"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name" ><span  class="addfullName"></span></h3>
+         <p class="role"> <span   class="addwho"> </span></p>
+         <a href="profile.html" class="btn">view profile</a>
+         <a href="#l" class="btn" onclick="logout()">Log out</a>
+      </div>
+      <div class="leaderboard">
+         <ol>
+            <li>john</li>
+            <li>hu</li>
+         </ol>
+      </div>
+      <div class="notification">
+         <ul>
+            <li>notification 1</li>
+            <li>notification 1</li>
+            <li>notification 1</li>
+         </ul>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name"><span  class="addfullName"></span></h3>
+      <p class="role"><span class="addwho"></span></p>
+      <a href="profile.html" class="btn">View profile</a>
+
+   <nav class="navbar" style="text-align: left;">
+      <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+      <a href="mentor.html"><i class="fas fa-chalkboard-user"></i><span>mentors</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+        <a href="#"><i class="fas fa-book"></i><span>library</span></a>
+      <a href="#"><i class="fas fa-microscope"></i><span>Explore Endo</span></a>
+   </nav>
+
+</div>
+</div>
+
+<section class="about">
+
+   <div class="row">
+
+      <div class="image">
+         <img src="images/about-img.svg" alt="">
+      </div>
+
+      <div class="content">
+         <h3>why choose us?</h3>
+         <p>At Edubridge, we understand that choosing the right educational partner is crucial for your academic journey. Our commitment to excellence is reflected in our innovative curriculum, experienced educators, and personalized support tailored to meet each student’s unique needs. We prioritize not just knowledge acquisition but also critical thinking and real-world application, ensuring our students are well-prepared for future challenges. With a vibrant community and a wealth of resources, Edubridge empowers learners to achieve their full potential in a nurturing and engaging environment. Choose us to embark on a transformative educational experience that inspires growth, curiosity, and lifelong learning.</p>
+         <a href="courses.html" class="inline-btn">our courses</a>
+      </div>
+
+   </div>
+
+   <div class="box-container">
+
+      <div class="box">
+         <i class="fas fa-graduation-cap"></i>
+         <div>
+            <h3>+10k</h3>
+            <p>online courses</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-user-graduate"></i>
+         <div>
+            <h3>+40k</h3>
+            <p>brilliant students</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-chalkboard-user"></i>
+         <div>
+            <h3>+2k</h3>
+            <p>expert tutors</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-briefcase"></i>
+         <div>
+            <h3>100%</h3>
+            <p>job placement</p>
+         </div>
+      </div>
+
+   </div>
+
+</section> 
+
+<section class="reviews">
+
+   <h1 class="heading">student's reviews</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <p>Edubridge has completely transformed my learning experience! The interactive lessons and supportive teachers have made complex subjects so much easier to understand. I feel more confident in my abilities, and I can’t wait to see what I can achieve next!</p>
+         <div class="student">
+            <img src="images/pic-2.jpg" alt="">
+            <div>
+               <h3>Maedot</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <p>I love how Edubridge focuses on real-world applications. The projects we work on not only help me grasp the material better, but they also prepare me for challenges outside the classroom. Highly recommend it to anyone looking for a dynamic educational experience</p>
+         <div class="student">
+            <img src="images/pic-3.jpg" alt="">
+            <div>
+               <h3>Emran</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <p>The personalized support at Edubridge is incredible. My tutor has helped me identify my strengths and weaknesses, and I've seen significant improvement in my grades. I feel like I have a true partner in my learning journey!</p>
+         <div class="student">
+            <img src="images/pic-4.jpg" alt="">
+            <div>
+               <h3>Abdellah</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <p>What I appreciate most about Edubridge is the sense of community. I've made friends who share my interests, and we often collaborate on projects. The collaborative atmosphere makes learning fun and engaging!</p>
+         <div class="student">
+            <img src="images/pic-5.jpg" alt="">
+            <div>
+               <h3>manu</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <p>Edubridge has a fantastic online platform that makes accessing resources so easy. Whether it’s videos, articles, or practice quizzes, everything is organized and user-friendly. It’s been a game changer for my study habits!</p>
+         <div class="student">
+            <img src="images/pic-6.jpg" alt="">
+            <div>
+               <h3>Kidus</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="box">
+         <p>I was hesitant to try online education, but Edubridge has exceeded my expectations. The classes are interactive, and the instructors are passionate and knowledgeable. I’m really enjoying my learning experience and look forward to each session!</p>
+         <div class="student">
+            <img src="images/pic-7.jpg" alt="">
+            <div>
+               <h3>Maheder</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; copyright @ 2024 by <span>EduBridge OSC</span> | all rights reserved!
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+   function displayUserProfile() {
+       const fullName = localStorage.getItem("fullName");
+       const email = localStorage.getItem("email");
+       const who = localStorage.getItem("who");
+       const academicQualification = localStorage.getItem("academicQualification");
+       const userName = localStorage.getItem("userName");
+       const country = localStorage.getItem("country");
+       const age = localStorage.getItem("age");
+       const type = localStorage.getItem("type");
+
+
+       const fullNameElements = document.querySelectorAll('.addfullName');
+       const emailElements = document.querySelectorAll('.addemail');
+       const whoElements = document.querySelectorAll('.addwho');
+       const academicQualificationElements = document.querySelectorAll('.addacademicQualification');
+       const userNameElements = document.querySelectorAll('.adduserName');
+       const countryElements = document.querySelectorAll('.addcountry');
+       const ageElements = document.querySelectorAll('.addage');
+       const typeElements = document.querySelectorAll('.addtype');
+
+      fullNameElements.forEach(element => {
+         element.textContent = fullName; 
+      });
+
+      emailElements.forEach(element => {
+         element.textContent = email;
+      });
+      
+      whoElements.forEach(element => {
+         element.textContent = who;
+      });
+      
+      academicQualificationElements.forEach(element => {
+         element.textContent = email;
+      });emailElements.forEach(element => {
+         element.textContent = academicQualification;
+      });
+      
+      userNameElements.forEach(element => {
+         element.textContent = userName;
+      });
+      
+      countryElements.forEach(element => {
+         element.textContent = country;
+      });
+      
+      ageElements.forEach(element => {
+         element.textContent = age;
+      });
+      
+      typeElements.forEach(element => {
+         element.textContent = type;
+      });
+
+   }
+
+   window.onload = displayUserProfile;
+
+   function logout() {
+    localStorage.removeItem("fullName");
+    localStorage.removeItem("email");
+    localStorage.removeItem("who");
+    localStorage.removeItem("academicQualification");
+    localStorage.removeItem("userName");
+    localStorage.removeItem("country");
+    localStorage.removeItem("age");
+    localStorage.removeItem("type");
+
+    window.location.href = "../index.html"; 
+}
+
+</script>
+
+
+   
+</body>
+</html>
