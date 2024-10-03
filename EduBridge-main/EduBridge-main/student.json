@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "grade_id": 1,
+    "created_date": "2021-08-10T07:45:00Z",
+    "country_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "grade_id": 2,
+    "created_date": "2020-04-12T09:20:00Z",
+    "country_id": 2
+  }
+]
